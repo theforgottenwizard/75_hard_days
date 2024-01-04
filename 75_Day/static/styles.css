@@ -1,0 +1,45 @@
+
+
+.header-line {
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+
+}
+
+.days-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 6px;
+}
+
+.day-row{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px 32px 0px;
+}
+
+.day-row label{
+    font-size: xx-large;
+}
+
+.day-row input{
+    font-size: xx-large;
+}
+

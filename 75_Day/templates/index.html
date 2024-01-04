@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    {% for i in range(75) %}
+        <div class="day" id={{i}} onclick="this.querySelector('form').submit()">
+            <h1>{{i+1}}</h1>
+            <form method="POST" action="/day" hidden>
+            <input type="hidden" name="divId" value="{{i}}">
+            </form>
+        </div>
+    {% endfor %}
+{% endblock %}
